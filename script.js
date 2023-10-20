@@ -46,6 +46,6 @@ selecionarTema.addEventListener("change", (evento) => {
     btnAdicionar.classList.remove("ativo");
     selecionarTema.classList.remove("ativo");
   }
-});
+})
 
 btnAdicionar.addEventListener("click", adicionarTarefa);
